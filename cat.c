@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-void clear(){//função que dá clear no terminal
+void clear(){
 printf("\033c");
-fflush(stdout);//não sei direito o que faz, mas melhora
+fflush(stdout);
 }
 
 
